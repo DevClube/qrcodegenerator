@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <form action="/generate_qr" method="post">
+            <label for="data">Enter data to encode:</label>
+            <input type="text" id="data" name="data" required>
+            <button type="submit">Generate QR Code</button>
+        </form>
+        {% if qr_code_path %}
+    <img src="{{ url_for('download_qr', unique_id=unique_id) }}" alt="QR Code">
+    <br>
+    <a href="{{ url_for('download_qr', unique_id=unique_id) }}" download="qrcode.png">
+        <button>Download QR Code</button>
+    </a>
+{% endif %}
+
+    </div>
+</body>
+</html>
