@@ -24,7 +24,7 @@ def generate_qr():
     data_to_encode = request.form['data']
     img_path, unique_id = generate_qr_code(data_to_encode)
 
-    # Set the expiration time (e.g., 10 minutes from now)
+    # Set the expiration time (e.g., 1 minutes from now)
     expiration_time = datetime.datetime.now() + datetime.timedelta(minutes=1)
     qr_code_expiration[unique_id] = expiration_time
 
