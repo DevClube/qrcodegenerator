@@ -1,5 +1,4 @@
 
-```markdown
 # QR Code Generator
 
 A simple Flask web application to generate and download QR codes.
