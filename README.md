@@ -56,9 +56,6 @@ This web application allows users to input data, generate a QR code, and downloa
 - Adjust the expiration time for QR codes in the `generate_qr` route.
 - Modify the HTML and CSS files in the `templates` folder for additional styling.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
