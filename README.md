@@ -26,8 +26,8 @@ This web application allows users to input data, generate a QR code, and downloa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/qr-code-generator.git
-   cd qr-code-generator
+   git clone https://github.com/DevClube/qrcodegenerator.git
+   cd qrcodegenerator
    ```
 
 2. Install dependencies:
@@ -66,7 +66,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - QR code generation is powered by the [qrcode](https://pypi.org/project/qrcode/) library.
 
 ```
-
-Remember to replace `your-username` with your actual GitHub username in the clone URL. Additionally, update the `LICENSE` section if you choose a different license for your project.
-
-Feel free to expand or modify this template based on the specific features and details of your project.
