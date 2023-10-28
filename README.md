@@ -61,5 +61,3 @@ This web application allows users to input data, generate a QR code, and downloa
 
 - This project uses the [Flask](https://flask.palletsprojects.com/) web framework.
 - QR code generation is powered by the [qrcode](https://pypi.org/project/qrcode/) library.
-
-```
